@@ -18,4 +18,4 @@ def contact_us():
 
 
 if __name__ == "__main__":
-    app.run(debug=True,host='localhost')
+    app.run(debug=True,host='37.46.133.238:5000')
