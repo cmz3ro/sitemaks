@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+		<!-- Page Banner -->
+		<div class="container-fluid no-padding page-banner">
+			<!-- Container -->
+			<div class="container">
+				<!-- Banner Heading -->
+				<div class="banner-heading">
+					<h3>Contact Us</h3>
+					<ol class="breadcrumb">
+						<li><a href="#">Home</a></li>					
+						<li class="active">Contact Us</li>
+					</ol>
+				</div><!-- Banner Heading /- -->
+			</div><!-- Container /- -->
+		</div><!-- Page Banner /- -->
+		
+		<!-- Map Section-->
+		<div class="map-section container-fluid no-padding">		
+			<div class="map-canvas" id="map-canvas-contact" data-lat="32.68284" data-lng="-97.07534" data-string="<div class='map-address'>50- Design Street, Texas - USA</div>" data-zoom="12"></div>
+		</div><!-- Map Section /- -->
+		
+
+{% endblock %}
